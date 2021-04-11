@@ -1,0 +1,696 @@
+{
+	"packages": [
+		{
+			"name": "rakwireless",
+			"maintainer": "RAKwireless",
+			"websiteURL": "https://RAKwireless.com",
+			"email": "inquiry@RAKwireless.com",
+			"description": "Board Support Package for RAKwireless WisBlock Core modules. Includes examples for all WisIO and WisSensor modules. Get more information from http://rakwireless.com",
+			"help": {
+				"online": "https://forum.rakwireless.com"
+			},
+			"platforms": [
+				{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
+					"version": "0.21.20",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.21.20.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-0.21.20.tar.gz",
+					"checksum": "SHA-256:B1C7F56E8F8C4CB55AE8423991178644BA8860B901F03749988D027FEFACFD7B",
+					"size": "19043392",
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
+					"version": "0.21.1",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.21.1.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-0.21.1.tar.gz",
+					"checksum": "SHA-256:ACCDAA1FC1AD3B3A585AD7777CB6AAA74F7FA41C1162E8082F739E88E3603A8A",
+					"size": "17955135",
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						},
+						{
+							"name": "RAK5010"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
+					"version": "0.21.0",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.21.001.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-0.21.001.tar.gz",
+					"checksum": "SHA-256:71E92E9DF8E4864ABBE689610F47D0C18F531202B8BBE30E628D78F10523CCAB",
+					"size": "17950953",
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
+					"version": "0.20.501",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.20.501.tar.gz?raw=true",
+					"archiveFileName": "0.20.501.tar.gz",
+					"checksum": "SHA-256:DC1ADF3D55FE99E0A51F93BBE8626D06EFDD24751E446B874B35CD764017D774",
+					"size": "17576699",
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless ESP32 Boards",
+					"architecture": "esp32",
+					"version": "1.0.4",
+					"category": "ESP32",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/1.0.4.zip",
+					"archiveFileName": "1.0.4.zip",
+					"checksum": "SHA-256:7010BC7C7D70CD760D5FF35A881937D817E9013030F9E345BBDF8316A975AD8B",
+					"size": "56862225",
+					"help": {
+						"online": "https://forum.rakwireless.com/"
+					},
+					"boards": [
+						{
+							"name": "RAK11200"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32-elf-gcc",
+							"version": "1.22.0-97-gc752ad5-5.2.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "esptool_py",
+							"version": "3.0.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mkspiffs",
+							"version": "0.2.3"
+						}
+					]
+				}
+			],
+			"tools": [
+				{
+					"name": "CMSIS",
+					"version": "5.4.0",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+							"archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+							"checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+							"size": "153772853"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+							"archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+							"checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+							"size": "153772853"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+							"archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+							"checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+							"size": "153772853"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+							"archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+							"checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+							"size": "153772853"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+							"archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+							"checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+							"size": "153772853"
+						},
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+							"archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+							"checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+							"size": "153772853"
+						},
+						{
+							"host": "all",
+							"url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+							"archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+							"checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+							"size": "153772853"
+						}
+					]
+				},
+				{
+					"name": "arm-none-eabi-gcc",
+					"version": "9-2019q4",
+					"systems": [
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+							"archiveFileName": "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+							"checksum": "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+							"size": "96613739"
+						},
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+							"archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+							"checksum": "MD5:0dfa059aae18fcf7d842e30c525076a4",
+							"size": "128670769"
+						},
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+							"archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+							"checksum": "MD5:9d60cbb0e358ab6a9d3c9e5dc3624dd2",
+							"size": "153520070"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+							"archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+							"checksum": "MD5:241b64f0578db2cf146034fc5bcee3d4",
+							"size": "116770520"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+							"archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+							"checksum": "MD5:fe0029de4f4ec43cf7008944e34ff8cc",
+							"size": "116802378"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+							"archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+							"checksum": "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+							"size": "97427309"
+						}
+					]
+				},
+				{
+					"systems": [
+						{
+							"host": "i386-apple-darwin11",
+							"checksum": "MD5:603bcce8e59683ac27054b3197a53254",
+							"size": "96372129",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2"
+						},
+						{
+							"host": "i686-linux-gnu",
+							"checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+							"size": "92811866",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+							"size": "92811866",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+						},
+						{
+							"host": "i686-mingw32",
+							"checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
+							"size": "102981732",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2"
+						}
+					],
+					"name": "gcc-arm-none-eabi",
+					"version": "5_2-2015q4"
+				},
+				{
+					"systems": [
+						{
+							"host": "i386-apple-darwin11",
+							"checksum": "MD5:04f65e24f36d55d10b71c1ebf49cd070",
+							"size": "362222",
+							"archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-mac.tar.bz2"
+						},
+						{
+							"host": "i686-linux-gnu",
+							"checksum": "MD5:9cf73f1f78cb8e249ed4e6f963d08a35",
+							"size": "177428",
+							"archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux32.tar.bz2"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"checksum": "MD5:da3c7b348e0c22766f175a4a9cca0d19",
+							"size": "190020",
+							"archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux64.tar.bz2"
+						},
+						{
+							"host": "i686-mingw32",
+							"checksum": "MD5:8352392ae0272173e1508d1218f51671",
+							"size": "851576",
+							"archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2"
+						}
+					],
+					"name": "nrfjprog",
+					"version": "9.4.0"
+				},
+				{
+					"systems": [
+						{
+							"host": "i686-linux-gnu",
+							"checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
+							"size": "28295",
+							"archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
+							"url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
+							"size": "28667",
+							"archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
+							"url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz"
+						},
+						{
+							"host": "i386-apple-darwin11",
+							"checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
+							"size": "3742",
+							"archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
+							"url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz"
+						},
+						{
+							"host": "i686-mingw32",
+							"checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
+							"size": "525710",
+							"archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
+							"url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz"
+						}
+					],
+					"name": "wiced_dfu",
+					"version": "1.0.0"
+				},
+				{
+					"name": "xtensa-esp32-elf-gcc",
+					"version": "1.22.0-97-gc752ad5-5.2.0",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/xtensa-esp32-elf-win32-1.22.0-97-gc752ad5-5.2.0.zip",
+							"archiveFileName": "xtensa-esp32-elf-win32-1.22.0-97-gc752ad5-5.2.0.zip",
+							"checksum": "SHA-256:80571e5d5a63494f4fa758bb9d8fb882ba4059853a8c412a84d232dc1c1400e6",
+							"size": "125747216"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/xtensa-esp32-elf-macos-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-macos-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"checksum": "SHA-256:b1ce39a563ae359cf363fb7d8ee80cb1e5226fda83188203cff60f16f55e33ef",
+							"size": "50525386"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/xtensa-esp32-elf-linux64-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"checksum": "SHA-256:96f5f6e7611a0ed1dc47048c54c3113fc5cebffbf0ba90d8bfcd497afc7ef9f3",
+							"size": "44225380"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/xtensa-esp32-elf-linux32-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"checksum": "SHA-256:8094a2c30b474e99ce64dd0ba8f310c4614eb3b3cac884a3aea0fd5f565af119",
+							"size": "45575521"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/xtensa-esp32-elf-linux-armel-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-linux-armel-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"checksum": "SHA-256:d70d550f88448fa476b29fa50ef5502ab497a16ac7fa9ca24c6d0a39bb1e681e",
+							"size": "50657803"
+						},
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/xtensa-esp32-elf-linux-armel-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"archiveFileName": "xtensa-esp32-elf-linux-armel-1.22.0-97-gc752ad5-5.2.0.tar.gz",
+							"checksum": "SHA-256:d70d550f88448fa476b29fa50ef5502ab497a16ac7fa9ca24c6d0a39bb1e681e",
+							"size": "50657803"
+						}
+					]
+				},
+				{
+					"version": "1.22.0-80-g6c4433a-5.2.0",
+					"name": "xtensa-esp32-elf-gcc",
+					"systems": [
+						{
+							"url": "https://dl.espressif.com/dl/xtensa-esp32-elf-win32-1.22.0-80-g6c4433a-5.2.0.zip",
+							"checksum": "SHA-256:f217fccbeaaa8c92db239036e0d6202458de4488b954a3a38f35ac2ec48058a4",
+							"host": "i686-mingw32",
+							"archiveFileName": "xtensa-esp32-elf-win32-1.22.0-80-g6c4433a-5.2.0.zip",
+							"size": "125719261"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+							"checksum": "SHA-256:a4307a97945d2f2f2745f415fbe80d727750e19f91f9a1e7e2f8a6065652f9da",
+							"host": "x86_64-apple-darwin",
+							"archiveFileName": "xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+							"size": "46517409"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+							"checksum": "SHA-256:3fe96c151d46c1d4e5edc6ed690851b8e53634041114bad04729bc16b0445156",
+							"host": "x86_64-pc-linux-gnu",
+							"archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+							"size": "44219107"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+							"checksum": "SHA-256:b4055695ffc2dfc0bcb6dafdc2572a6e01151c4179ef5fa972b3fcb2183eb155",
+							"host": "i686-pc-linux-gnu",
+							"archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+							"size": "45566336"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux-armel-1.22.0-87-gb57bad3-5.2.0.tar.gz",
+							"checksum": "SHA-256:9c68c87bb23b1256dc0a1859b515946763e5292dcab4a4159a52fae5618ce861",
+							"host": "arm-linux-gnueabihf",
+							"archiveFileName": "xtensa-esp32-elf-linux-armel-1.22.0-87-gb57bad3-5.2.0.tar.gz",
+							"size": "50655584"
+						}
+					]
+				},
+				{
+					"name": "esptool_py",
+					"version": "3.0.0",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/esptool-3.0.0.2-windows.zip",
+							"archiveFileName": "esptool-3.0.0.2-windows.zip",
+							"checksum": "SHA-256:b192bfc1545a3c92658ce586b4edcc2aca3f0ad4b3fa8417d658bc8a48f1387e",
+							"size": "3434736"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/esptool-3.0.0.2-macos.tar.gz",
+							"archiveFileName": "esptool-3.0.0.2-macos.tar.gz",
+							"checksum": "SHA-256:2cafab7f1ebce89475b84c115548eaace40b6366d7b3f9862cdb2fc64f806643",
+							"size": "3859642"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/esptool-3.0.0.2-linux.tar.gz",
+							"archiveFileName": "esptool-3.0.0.2-linux.tar.gz",
+							"checksum": "SHA-256:d5cb51da1c74ff69f81b820470d2ecccb5c7c3a2dec7776483d4c89588b00020",
+							"size": "57526"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/esptool-3.0.0.2-linux.tar.gz",
+							"archiveFileName": "esptool-3.0.0.2-linux.tar.gz",
+							"checksum": "SHA-256:d5cb51da1c74ff69f81b820470d2ecccb5c7c3a2dec7776483d4c89588b00020",
+							"size": "57526"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/esptool-3.0.0.2-linux.tar.gz",
+							"archiveFileName": "esptool-3.0.0.2-linux.tar.gz",
+							"checksum": "SHA-256:d5cb51da1c74ff69f81b820470d2ecccb5c7c3a2dec7776483d4c89588b00020",
+							"size": "57526"
+						},
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5-rc5/esptool-3.0.0.2-linux.tar.gz",
+							"archiveFileName": "esptool-3.0.0.2-linux.tar.gz",
+							"checksum": "SHA-256:d5cb51da1c74ff69f81b820470d2ecccb5c7c3a2dec7776483d4c89588b00020",
+							"size": "57526"
+						}
+					]
+				},
+				{
+					"version": "2.6.1",
+					"name": "esptool_py",
+					"systems": [
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.1-windows.zip",
+							"checksum": "SHA-256:84cf0b369a7707fe566434faba148852fc464992111d5baa95b658b374802f96",
+							"host": "i686-mingw32",
+							"archiveFileName": "esptool-2.6.1-windows.zip",
+							"size": "3422445"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.1-macos.tar.gz",
+							"checksum": "SHA-256:f4eb758a301d6902cc9dfcd49d36345d2f075ad123da7cf8132d15cfb7533457",
+							"host": "x86_64-apple-darwin",
+							"archiveFileName": "esptool-2.6.1-macos.tar.gz",
+							"size": "3837085"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.1-linux.tar.gz",
+							"checksum": "SHA-256:eaf82ff4070d9792f6a42ae1e485375de5a87bec59ef01dfb95de901519ec7fb",
+							"host": "x86_64-pc-linux-gnu",
+							"archiveFileName": "esptool-2.6.1-linux.tar.gz",
+							"size": "44762"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.1-linux.tar.gz",
+							"checksum": "SHA-256:eaf82ff4070d9792f6a42ae1e485375de5a87bec59ef01dfb95de901519ec7fb",
+							"host": "i686-pc-linux-gnu",
+							"archiveFileName": "esptool-2.6.1-linux.tar.gz",
+							"size": "44762"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.1-linux.tar.gz",
+							"checksum": "SHA-256:eaf82ff4070d9792f6a42ae1e485375de5a87bec59ef01dfb95de901519ec7fb",
+							"host": "arm-linux-gnueabihf",
+							"archiveFileName": "esptool-2.6.1-linux.tar.gz",
+							"size": "44762"
+						}
+					]
+				},
+				{
+					"version": "2.6.0",
+					"name": "esptool_py",
+					"systems": [
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.0-windows.zip",
+							"checksum": "SHA-256:a73f4cf68db240d7f1d250c5c7f2dfcb53c17a37483729f1bf71f8f43d79a799",
+							"host": "i686-mingw32",
+							"archiveFileName": "esptool-2.6.0-windows.zip",
+							"size": "3421208"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.0-macos.tar.gz",
+							"checksum": "SHA-256:0a881b91547c840fab8c72ae3d031069384278b8c2e5241647e8c8292c5e4a4b",
+							"host": "x86_64-apple-darwin",
+							"archiveFileName": "esptool-2.6.0-macos.tar.gz",
+							"size": "3835660"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.0-linux.tar.gz",
+							"checksum": "SHA-256:6d162f70f395ca31f5008829dd7e833e729f044a9c7355d5be8ce333a054e110",
+							"host": "x86_64-pc-linux-gnu",
+							"archiveFileName": "esptool-2.6.0-linux.tar.gz",
+							"size": "43535"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.0-linux.tar.gz",
+							"checksum": "SHA-256:6d162f70f395ca31f5008829dd7e833e729f044a9c7355d5be8ce333a054e110",
+							"host": "i686-pc-linux-gnu",
+							"archiveFileName": "esptool-2.6.0-linux.tar.gz",
+							"size": "43535"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.6.0-linux.tar.gz",
+							"checksum": "SHA-256:6d162f70f395ca31f5008829dd7e833e729f044a9c7355d5be8ce333a054e110",
+							"host": "arm-linux-gnueabihf",
+							"archiveFileName": "esptool-2.6.0-linux.tar.gz",
+							"size": "43535"
+						}
+					]
+				},
+				{
+					"name": "mkspiffs",
+					"version": "0.2.3",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-win32.zip",
+							"archiveFileName": "mkspiffs-0.2.3-arduino-esp32-win32.zip",
+							"checksum": "SHA-256:b647f2c2efe6949819c85ea9404271b55c7c9c25bcb98d3b98a1d0ba771adf56",
+							"size": "249809"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+							"archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+							"checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+							"size": "130270"
+						},
+						{
+							"host": "i386-apple-darwin",
+							"url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+							"archiveFileName": "mkspiffs-0.2.3-arduino-esp32-osx.tar.gz",
+							"checksum": "SHA-256:9f43fc74a858cf564966b5035322c3e5e61c31a647c5a1d71b388ed6efc48423",
+							"size": "130270"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-linux64.tar.gz",
+							"archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux64.tar.gz",
+							"checksum": "SHA-256:5e1a4ff41385e842f389f6b5254102a547e566a06b49babeffa93ef37115cb5d",
+							"size": "50646"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-linux32.tar.gz",
+							"archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux32.tar.gz",
+							"checksum": "SHA-256:464463a93e8833209cdc29ba65e1a12fec31718dc10075c195a2445b2c3f6cb0",
+							"size": "48751"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+							"archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+							"checksum": "SHA-256:ade3dc00117912ac08a1bdbfbfe76b12d21a34bc5fa1de0cfc45fe7a8d0a0185",
+							"size": "40665"
+						},
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://github.com/igrr/mkspiffs/releases/download/0.2.3/mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+							"archiveFileName": "mkspiffs-0.2.3-arduino-esp32-linux-armhf.tar.gz",
+							"checksum": "SHA-256:ade3dc00117912ac08a1bdbfbfe76b12d21a34bc5fa1de0cfc45fe7a8d0a0185",
+							"size": "40665"
+						}
+					]
+				},
+				{
+					"version": "2.3.1",
+					"name": "esptool",
+					"systems": [
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.3.1-windows.zip",
+							"checksum": "SHA-256:c187763d0faac7da7c30a292a23c759bbc256fcd084dc8846ed284000cb0fe29",
+							"host": "i686-mingw32",
+							"archiveFileName": "esptool-2.3.1-windows.zip",
+							"size": "3396085"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.3.1-macos.tar.gz",
+							"checksum": "SHA-256:cd922418f02e0ca11dc066b36a22646a1b441da00d762b4464ca598c902c5ecb",
+							"host": "x86_64-apple-darwin",
+							"archiveFileName": "esptool-2.3.1-macos.tar.gz",
+							"size": "3810932"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.3.1-linux.tar.gz",
+							"checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
+							"host": "x86_64-pc-linux-gnu",
+							"archiveFileName": "esptool-2.3.1-linux.tar.gz",
+							"size": "39563"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.3.1-linux.tar.gz",
+							"checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
+							"host": "i686-pc-linux-gnu",
+							"archiveFileName": "esptool-2.3.1-linux.tar.gz",
+							"size": "39563"
+						},
+						{
+							"url": "https://dl.espressif.com/dl/esptool-2.3.1-linux.tar.gz",
+							"checksum": "SHA-256:cff30841dad80ed5d7d2d58a31843b63afa57528979a9c839806568167691d8e",
+							"host": "arm-linux-gnueabihf",
+							"archiveFileName": "esptool-2.3.1-linux.tar.gz",
+							"size": "39563"
+						}
+					]
+				}
+			]
+		}
+	]
+}
