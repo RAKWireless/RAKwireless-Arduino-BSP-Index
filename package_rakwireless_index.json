@@ -17,8 +17,8 @@
 					"category": "Contributed",
 					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.21.20.tar.gz?raw=true",
 					"archiveFileName": "RAK-nRF52-Arduino-0.21.20.tar.gz",
-					"checksum": "SHA-256:B1C7F56E8F8C4CB55AE8423991178644BA8860B901F03749988D027FEFACFD7B",
-					"size": "19043392",
+					"checksum": "SHA-256:654C92CFB378DC7B76C23FB56DA2AE1EB8920863057CB9C18CF6153C13CA5658",
+					"size": "19900279",
 					"boards": [
 						{
 							"name": "RAK4631"
@@ -139,7 +139,7 @@
 					"version": "1.0.4",
 					"category": "ESP32",
 					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/1.0.4.zip",
-					"archiveFileName": "1.0.4.zip",
+					"archiveFileName": "RAK-ESP32-Arduino-1.0.4.zip",
 					"checksum": "SHA-256:7010BC7C7D70CD760D5FF35A881937D817E9013030F9E345BBDF8316A975AD8B",
 					"size": "56862225",
 					"help": {
