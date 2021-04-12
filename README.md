@@ -31,6 +31,14 @@ In the **Preferences** window, look for **Additional Boards Manager URLs** and c
 ![Additional Boards Manager URLs](./assets/02-add-bsp-url.png)  
 
 ----
+----
+
+# IMPORTANT !!!!!  
+If you have already installed the RAKwireless nRF Modules BSP, please follow [these steps first](#uninstall-old-bsp-package). Otherwise you will have the RAK nRF52 boards listed twice!  
+
+#### Continue
+---- 
+----
 
 Copy `https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_index.json` and paste it into the new window.      
 - If there is already an URL from another manufacturer in that field, paste the above URL into a new line.    
@@ -65,3 +73,38 @@ For additional information about RAK products please visit our [Documentation Ce
 To buy WisBlock modules please visit our [online store](https://store.rakwireless.com/pages/wisblock)_**
 
 
+# Uninstall Old BSP Package
+If you have installed the RAKwireless nRF Modules BSP before, you need to uninstall them first, otherwise you will have the boards listed twice!  
+  
+## Uninstall the RAKwireless nRF Modules BSP
+Open the **Boards Manager** in the menu **Tools**    
+![Preferences](./assets/04-add-bsp.png) 
+
+----
+
+Write "RAK" (without quotes) in the search bar. The already installed RAKwireless WisBlock Core modules will be shown in the window.  
+  
+![Preferences](./assets/06-uninstall-old-bsp.png) 
+
+Select the existing RAK nRF BSP and click on **REMOVE**.    
+
+----
+
+## Remove BSP URL from preferences
+To remove the old BSP URL open the Preferences window (**File** > **Preferences**).     
+
+![Preferences](./assets/01-add-bsp-url.png)     
+
+----
+
+In the **Preferences** window, look for **Additional Boards Manager URLs** and click the icon on the right side.
+
+![Additional Boards Manager URLs](./assets/02-add-bsp-url.png)  
+
+Look for the old entry     
+**`https://raw.githubusercontent.com/RAKWireless/RAK-nRF52-Arduino/master/package_raknrf_index.json`**    
+and remove the line.  
+  
+![Additional Boards Manager URLs](./assets/07-uninstall-old-bsp.png)  
+
+Now you can [continue](#continue) with the new BSP installation.
