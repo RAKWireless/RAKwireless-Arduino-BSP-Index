@@ -5,7 +5,7 @@
 			"maintainer": "RAKwireless",
 			"websiteURL": "https://RAKwireless.com",
 			"email": "inquiry@RAKwireless.com",
-			"description": "Board Support Package for RAKwireless WisBlock Core modules. Includes examples for all WisIO and WisSensor modules. Get more information from http://rakwireless.com",
+			"description": "Board Support Package for RAKwireless WisBlock Core modules. Checkout examples on https://github.com/RAKWireless/WisBlock/tree/master/examples. Get more information from http://rakwireless.com",
 			"help": {
 				"online": "https://forum.rakwireless.com"
 			},
@@ -128,6 +128,36 @@
 						},
 						{
 							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
+					"version": "0.24.0",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/refs/tags/0.24.0.tar.gz",
+					"archiveFileName": "RAK-nRF52-Arduino-0.24.0.tar.gz",
+					"checksum": "SHA-256:D91A7EA25F223C54AE72D602A4670820DE991FC92AE91267CB35C9FDC923613F",
+					"size": "18990045",
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "raknrf",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "raknrf",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
