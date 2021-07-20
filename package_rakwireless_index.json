@@ -152,12 +152,12 @@
 					],
 					"toolsDependencies": [
 						{
-							"packager": "raknrf",
+							"packager": "rakwireless",
 							"name": "arm-none-eabi-gcc",
 							"version": "9-2019q4"
 						},
 						{
-							"packager": "raknrf",
+							"packager": "rakwireless",
 							"name": "nrfjprog",
 							"version": "9.4.0"
 						}
