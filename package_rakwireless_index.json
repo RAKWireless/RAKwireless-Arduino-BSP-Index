@@ -134,36 +134,6 @@
 					]
 				},
 				{
-					"name": "RAKwireless nRF Boards",
-					"architecture": "nrf52",
-					"version": "0.24.0",
-					"category": "Contributed",
-					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/refs/tags/0.24.0.tar.gz",
-					"archiveFileName": "RAK-nRF52-Arduino-0.24.0.tar.gz",
-					"checksum": "SHA-256:D91A7EA25F223C54AE72D602A4670820DE991FC92AE91267CB35C9FDC923613F",
-					"size": "18990045",
-					"boards": [
-						{
-							"name": "RAK4631"
-						},
-						{
-							"name": "RAK4601"
-						}
-					],
-					"toolsDependencies": [
-						{
-							"packager": "rakwireless",
-							"name": "arm-none-eabi-gcc",
-							"version": "9-2019q4"
-						},
-						{
-							"packager": "rakwireless",
-							"name": "nrfjprog",
-							"version": "9.4.0"
-						}
-					]
-				},
-				{
 					"name": "RAKwireless ESP32 Boards",
 					"architecture": "esp32",
 					"version": "1.0.4",
