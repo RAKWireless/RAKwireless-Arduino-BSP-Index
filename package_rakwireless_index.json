@@ -13,6 +13,44 @@
 				{
 					"name": "RAKwireless nRF Boards",
 					"architecture": "nrf52",
+					"version": "1.0.0",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/1.0.0.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-1.0.0.tar.gz",
+					"checksum": "SHA-256:88889753D0BC48388E899272F602511656ADF5685EE0D33FBD84AA20F4D57AC1",
+					"size": "18621380",
+					"help": {
+						"online": "https://forum.rakwireless.com"
+					},
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "CMSIS",
+							"version": "5.7.0"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
 					"version": "0.21.20",
 					"category": "Contributed",
 					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/0.21.20.tar.gz?raw=true",
@@ -471,6 +509,61 @@
 				}
 			],
 			"tools": [
+				{
+					"name": "CMSIS",
+					"version": "5.7.0",
+					"systems": [
+						{
+							"host": "i686-mingw32",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "x86_64-apple-darwin",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "x86_64-pc-linux-gnu",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "i686-pc-linux-gnu",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "arm-linux-gnueabihf",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "aarch64-linux-gnu",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						},
+						{
+							"host": "all",
+							"url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+							"archiveFileName": "ARM.CMSIS.5.7.0.zip",
+							"checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+							"size": "117164633"
+						}
+					]
+				},
 				{
 					"name": "CMSIS",
 					"version": "5.4.0",
