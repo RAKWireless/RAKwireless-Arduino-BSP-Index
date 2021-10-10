@@ -15,6 +15,7 @@ This repository contains support for the following RAKwireless Arduino BSP's for
 
 - **[RAK4631](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK4631/Overview/#product-description)**    
 - **[RAK11200](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK11200/Overview/#product-description)**
+- **[RAK11310](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK11310/Overview/#product-description)**
 
 ----
 
