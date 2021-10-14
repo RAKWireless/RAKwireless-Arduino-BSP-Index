@@ -506,6 +506,51 @@
 							"name": "rp2040tools"
 						}
 					]
+				},
+				{
+					"name": "RAKwireless RP Boards",
+					"architecture": "mbed_rp2040",
+					"version": "0.0.6",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-RP-Arduino/archive/0.0.6.tar.gz?raw=true",
+					"archiveFileName": "RAK-RP-Arduino-0.0.6.tar.gz",
+					"checksum": "SHA-256:EB6A691F5A02E46043399D27ED5707BC21B35B73045514F458AF581A75AACC1B",
+					"size": "13017999",
+					"help": {
+						"online": "https://forum.rakwireless.com/c/wisblock/67"
+					},
+					"boards": [
+						{
+							"name": "RAK11300"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "openocd",
+							"version": "0.11.0-arduino2"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "7-2017q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "bossac",
+							"version": "1.9.1-arduino2"
+						},
+						{
+							"packager": "rakwireless",
+							"version": "0.10.0-arduino1",
+							"name": "dfu-util"
+						},
+						{
+							"packager": "rakwireless",
+							"version": "1.0.2",
+							"name": "rp2040tools"
+						}
+					]
 				}
 			],
 			"tools": [
