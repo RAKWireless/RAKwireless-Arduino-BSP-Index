@@ -15,8 +15,8 @@
 					"architecture": "nrf52",
 					"version": "1.0.1",
 					"category": "Contributed",
-					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/1.0.0.tar.gz?raw=true",
-					"archiveFileName": "RAK-nRF52-Arduino-1.0.0.tar.gz",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/1.0.1.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-1.0.1.tar.gz",
 					"checksum": "SHA-256:7D76C73158606B10108812DFA39867B1010B8E28841F5ED83096EF2522773184",
 					"size": "18621633",
 					"help": {
