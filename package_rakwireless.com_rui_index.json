@@ -13,12 +13,12 @@
         {
           "name": "RAKwireless RUI nRF Boards",
           "architecture": "nrf52",
-          "version": "0.0.0",
+          "version": "3.0.0",
           "category": "Contributed",
-          "url": "http://127.0.0.1:8000/rui-sdk-master.tar.gz",
-          "archiveFileName": "rui-sdk-master.tar.gz",
-          "checksum": "SHA-256:e6a36be3bad131377094b585fb8b7c3ced5b6a971c83d10199fe4c696ecf7a06",
-          "size": "144267571",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.0.0.zip",
+          "archiveFileName": "RAK-nRF52-RUI-3.0.0.zip",
+          "checksum": "SHA-256:1c11f0a4d40f50eee26b219bd3dfed5fa1053a039bb2a8a56aa7095a4bf0bbc1",
+          "size": "151422528sah",
           "boards": [
             {
               "name": "RAK4631"
@@ -174,28 +174,28 @@
               "checksum": "MD5:70d1c0f33f132291d732878802fd9680",
               "size": "690",
               "archiveFileName": "uploader-macos.tar.gz",
-              "url": "http://127.0.0.1:8000/uploader-macos.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_macos.tar.gz"
             },
             {
               "host": "i686-linux-gnu",
               "checksum": "MD5:34575c39dec921448d744e49c55344dd",
               "size": "685",
               "archiveFileName": "uploader-linux.tar.gz",
-              "url": "http://127.0.0.1:8000/uploader-linux.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_linux.tar.gz"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "checksum": "MD5:34575c39dec921448d744e49c55344dd",
               "size": "685",
               "archiveFileName": "uploader-linux.tar.gz",
-              "url": "http://127.0.0.1:8000/uploader-linux.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_linux.tar.gz"
             },
             {
               "host": "i686-mingw32",
               "checksum": "MD5:2846090fba1298c0a80b47c933499525",
               "size": "6778891",
               "archiveFileName": "uploader-win32.tar.gz",
-              "url": "http://127.0.0.1:8000/uploader-win32.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_win32.tar.gz"
             }
           ]
         },
@@ -208,28 +208,28 @@
               "checksum": "MD5:a8a13d24e1148d63b42312832e995144",
               "size": "11211058",
               "archiveFileName": "pc-nrfutil-macos.tar.gz",
-              "url": "http://127.0.0.1:8000/pc-nrfutil-macos.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/pc_nrfutil_macos.tar.gz"
             },
             {
               "host": "i686-linux-gnu",
               "checksum": "MD5:a9f6716032eeadfd7e827a2f09e17133",
               "size": "18497805",
               "archiveFileName": "pc-nrfutil-linux.tar.gz",
-              "url": "http://127.0.0.1:8000/pc-nrfutil-linux.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_linux.tar.gz"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "checksum": "MD5:a9f6716032eeadfd7e827a2f09e17133",
               "size": "18497805",
               "archiveFileName": "pc-nrfutil-linux.tar.gz",
-              "url": "http://127.0.0.1:8000/pc-nrfutil-linux.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_linux.tar.gz"
             },
             {
               "host": "i686-mingw32",
               "checksum": "MD5:7a68fda514f0667e70818c8123ee8cb0",
               "size": "22104444",
               "archiveFileName": "pc-nrfutil-win32.tar.gz",
-              "url": "http://127.0.0.1:8000/pc-nrfutil-win32.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/pc_nrfutil_win32.tar.gz"
             }
           ]
         }
