@@ -16,7 +16,7 @@
           "version": "3.0.0",
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.0.0.tar.gz",
-          "archiveFileName": "RAK-nRF52-RUI-3.0.0.zip",
+          "archiveFileName": "RAK-nRF52-RUI-3.0.0.tar.gz",
           "checksum": "SHA-256:bc97c5ca33897051a938f4373711e0bc025c6305e4c271805e5066c4cc169ea9",
           "size": "144274309",
           "boards": [
