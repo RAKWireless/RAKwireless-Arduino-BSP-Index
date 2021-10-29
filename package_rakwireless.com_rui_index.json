@@ -17,8 +17,8 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.0.0.tar.gz",
           "archiveFileName": "RAK-nRF52-RUI-3.0.0.tar.gz",
-          "checksum": "SHA-256:bc97c5ca33897051a938f4373711e0bc025c6305e4c271805e5066c4cc169ea9",
-          "size": "144274309",
+          "checksum": "SHA-256:34564719c5cabd7c367322e7d5fa0b76ad7edbfef645562ab02562a29e3fea04",
+          "size": "144279803",
           "boards": [
             {
               "name": "RAK4631"
@@ -171,29 +171,29 @@
           "systems": [
             {
               "host": "i386-apple-darwin11",
-              "checksum": "MD5:70d1c0f33f132291d732878802fd9680",
-              "size": "690",
+              "checksum": "MD5:0265ba8cbacb088aaa069f3f02732968",
+              "size": "694",
               "archiveFileName": "uploader-macos.tar.gz",
               "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_macos.tar.gz"
             },
             {
               "host": "i686-linux-gnu",
-              "checksum": "MD5:34575c39dec921448d744e49c55344dd",
-              "size": "685",
+              "checksum": "MD5:9c3fb2158184adcc472426c0f4ca297c",
+              "size": "689",
               "archiveFileName": "uploader-linux.tar.gz",
               "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_linux.tar.gz"
             },
             {
-              "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:34575c39dec921448d744e49c55344dd",
-              "size": "685",
+              "host": "x87_64-pc-linux-gnu",
+              "checksum": "MD5:9c3fb2158184adcc472426c0f4ca297c",
+              "size": "689",
               "archiveFileName": "uploader-linux.tar.gz",
               "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_linux.tar.gz"
             },
             {
               "host": "i686-mingw32",
-              "checksum": "MD5:2846090fba1298c0a80b47c933499525",
-              "size": "6778891",
+              "checksum": "MD5:bd5b087f32d866d4993bbb052ed741a5",
+              "size": "6778876",
               "archiveFileName": "uploader-win32.tar.gz",
               "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader_win32.tar.gz"
             }
