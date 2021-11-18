@@ -185,7 +185,7 @@
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:7a7b2aa706096ef641a04c80e73b3779md4",
+              "checksum": "MD5:7a7b2aa706096ef641a04c80e73b3779",
               "size": "707",
               "archiveFileName": "uploader-linux.tar.gz",
               "url": "https://downloads.rakwireless.com/RUI/V3/Tools/uploader-linux.tar.gz"
