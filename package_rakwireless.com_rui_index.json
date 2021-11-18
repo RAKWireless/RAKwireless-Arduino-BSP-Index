@@ -13,7 +13,7 @@
         {
           "name": "RAKwireless RUI nRF Boards",
           "architecture": "nrf52",
-          "version": "3.0.0",
+          "version": "3.0.1",
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.0.0.tar.gz",
           "archiveFileName": "RAK-nRF52-RUI-3.0.0.tar.gz",
