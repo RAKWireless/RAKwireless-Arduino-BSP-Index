@@ -323,28 +323,28 @@
               "checksum": "MD5:0cb2c01c12c641c460c7c49b4df61299",
               "size": "410",
               "archiveFileName": "buildtime-macos.tar.gz",
-              "url": "http://127.0.0.1:8000/buildtime-macos.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/buildtime-macos.tar.gz"
             },
             {
               "host": "i686-linux-gnu",
               "checksum": "MD5:c6e85a264273d985269ca95127928f22",
               "size": "410",
               "archiveFileName": "buildtime-linux.tar.gz",
-              "url": "http://127.0.0.1:8000/buildtime-linux.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/buildtime-linux.tar.gz"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "checksum": "MD5:c6e85a264273d985269ca95127928f22",
               "size": "410",
               "archiveFileName": "buildtime-linux.tar.gz",
-              "url": "http://127.0.0.1:8000/buildtime-linux.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/buildtime-linux.tar.gz"
             },
             {
               "host": "i686-mingw32",
               "checksum": "MD5:e3b6f4f5a0487583feda208985053c2d",
               "size": "6558844",
               "archiveFileName": "buildtime-win32.tar.gz",
-              "url": "http://127.0.0.1:8000/buildtime-win32.tar.gz"
+              "url": "https://downloads.rakwireless.com/RUI/V3/Tools/buildtime-win32.tar.gz"
             }
           ]
         }
