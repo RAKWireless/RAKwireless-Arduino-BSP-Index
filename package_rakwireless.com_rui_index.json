@@ -15,9 +15,9 @@
           "architecture": "stm32",
           "version": "3.2.0",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.2.1.tar.gz",
-          "archiveFileName": "RAK-STM32-RUI-3.2.1.tar.gz",
-          "checksum": "SHA-256:0b92f5b6b4d17381f63d2a9e23adc7c75f14aa609f36dde58ffc03d7fa5dd323",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.2.2.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-3.2.2.tar.gz",
+          "checksum": "SHA-256:34f177df2fd010695cc3336c16af181619fe3699b0b9e7a1985caab34beb7114",
           "size": "55280175",
           "boards": [
             {
@@ -35,8 +35,8 @@
             },
             {
               "packager": "rak_rui",
-              "name": "uploader_3372",
-              "version": "0.0.0"
+              "name": "uploader_ymodem",
+              "version": "1.0.0"
             },
             {
               "packager": "rak_rui",
@@ -50,9 +50,9 @@
           "architecture": "nrf52",
           "version": "3.2.0",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.2.0.tar.gz",
-          "archiveFileName": "RAK-nRF52-RUI-3.2.0.tar.gz",
-          "checksum": "SHA-256:aaf2c64a7e6b5067199e88bd86b134d25b4d66b20d23bf955d42a374d50fed35",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.2.2.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-3.2.2.tar.gz",
+          "checksum": "SHA-256:1dc4e6df253acbf553d634c6531025205f36ddbb49b416c2e6b17facd9def5ca",
           "size": "78292625",
           "boards": [
             {
@@ -234,15 +234,15 @@
             },
             {
               "host": "i686-linux-gnu",
-              "checksum": "MD5:e620c6980a2a9c2e5212605284ae71aa",
-              "size": "9457640",
+              "checksum": "MD5:099d37ad29e54d5f47737007c8a5bf8c",
+              "size": "9459660",
               "archiveFileName": "nrfjprog-10.12.2-linux32.tar.bz2",
               "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.12.2-linux32.tar.bz2"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:e620c6980a2a9c2e5212605284ae71aa",
-              "size": "9457640",
+              "checksum": "MD5:099d37ad29e54d5f47737007c8a5bf8c",
+              "size": "9459660",
               "archiveFileName": "nrfjprog-10.12.2-linux32.tar.bz2",
               "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.12.2-linux32.tar.bz2"
             },
@@ -320,6 +320,40 @@
               "size": "6603366",
               "archiveFileName": "uploader_3372-win32.tar.gz",
               "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_3372-win32.tar.gz"
+            }
+          ]
+        },
+		{
+          "name": "uploader_ymodem",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:d9ef354c91761588ffcabd9583203408",
+              "size": "7167",
+              "archiveFileName": "uploader_ymodem_macos_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_macos_v1.0.0.tar.gz"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:e1bf37a89ced75d8c71d65648695fc95",
+              "size": "7166",
+              "archiveFileName": "uploader_ymodem_linux_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_linux_v1.0.0.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:e1bf37a89ced75d8c71d65648695fc95",
+              "size": "7166",
+              "archiveFileName": "uploader_ymodem_linux_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_linux_v1.0.0.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:d45e2b437401e7cc39dd8f68c927e19f",
+              "size": "6600625",
+              "archiveFileName": "uploader_ymodem_win32_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_win32_v1.0.0.tar.gz"
             }
           ]
         },
