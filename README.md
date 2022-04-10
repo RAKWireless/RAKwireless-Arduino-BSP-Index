@@ -1,5 +1,5 @@
 # RAKwireless BSP Support For The Arduino Board Manager
-| <center><img src="./assets/RAK-Whirls.png" alt="RAKwireless" width=100></center> | <center><img src="./assets/rui3.png" alt="RUI3" width=100></center> | <center><img src="./assets/rakstar.jpg" alt="RAKstar" width=100></center> | <center><img src="./assets/WisBlock.png" alt="WisBlock" width=100></center> |
+| <center><img src="./assets/RAK-Whirls.png" alt="RAKwireless" width=100></center> | <center><img src="./assets/RUI3.png" alt="RUI3" width=100></center> | <center><img src="./assets/rakstar.jpg" alt="RAKstar" width=100></center> | <center><img src="./assets/WisBlock.png" alt="WisBlock" width=100></center> |
 | :-: | :-: | :-: | :-: |
 
 ----
