@@ -15,10 +15,10 @@
           "architecture": "stm32",
           "version": "3.2.0",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.2.5.tar.gz",
-          "archiveFileName": "RAK-STM32-RUI-3.2.5.tar.gz",
-          "checksum": "SHA-256:8e953ac3653ca976e1cc0477c0c1a829f73af142dfe0b103a93b1cace4c0346b",
-          "size": "55489610",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.2.6.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-3.2.6.tar.gz",
+          "checksum": "SHA-256:340a3399e98a127cc36f7a05e6b0ef30d34949ef0e6106e03906d7afbfb124ab",
+          "size": "55496952",
           "boards": [
             {
               "name": "RAK3172-E"
