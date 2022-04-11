@@ -50,10 +50,10 @@
           "architecture": "nrf52",
           "version": "3.2.0",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.2.4.tar.gz",
-          "archiveFileName": "RAK-nRF52-RUI-3.2.4.tar.gz",
-          "checksum": "SHA-256:d649baea7a90b0fa97af39c3b31cb8b852b2c7a946cdde4181af429b7ff96064",
-          "size": "78289689",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.2.6.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-3.2.6.tar.gz",
+          "checksum": "SHA-256:54f0186b72cebbf4aae916cf50a6692b9fd915289c219bbe5cfe29e8ad117992",
+          "size": "78653073",
           "boards": [
             {
               "name": "RAK4631"
