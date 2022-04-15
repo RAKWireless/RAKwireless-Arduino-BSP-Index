@@ -15,10 +15,10 @@
           "architecture": "stm32",
           "version": "3.2.0",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.2.7.tar.gz",
-          "archiveFileName": "RAK-STM32-RUI-3.2.7.tar.gz",
-          "checksum": "SHA-256:edb7b9a3f5fcc103269aea6472a98c7f748ba76315d4a45c603f3a0678f689ea",
-          "size": "55144708",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.2.8.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-3.2.8.tar.gz",
+          "checksum": "SHA-256:a3942ddafd210f80d246b5978bdcd1cdb93d262b7b788cf1db40715665879aa3",
+          "size": "55141770",
           "boards": [
             {
               "name": "RAK3172-E"
@@ -50,10 +50,10 @@
           "architecture": "nrf52",
           "version": "3.2.0",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.2.7.tar.gz",
-          "archiveFileName": "RAK-nRF52-RUI-3.2.7.tar.gz",
-          "checksum": "SHA-256:8adf6b8ec2f0f5beae5dbcf34ca2a861af3c7ae470b429fc5a69375cd6fa1aca",
-          "size": "78302031",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.2.8.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-3.2.8.tar.gz",
+          "checksum": "SHA-256:86b44a4e24e602596b2a3d1ee9e857a51395e8894f9a4aace8dd426954e9c581",
+          "size": "78296724",
           "boards": [
             {
               "name": "RAK4631"
