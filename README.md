@@ -68,7 +68,7 @@ Copy `https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Inde
 - If there is already an URL from another manufacturer in that field, paste the above URL into a new line.    
 
 ### If installing RUI3 BSP's
-Copy `https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless.com_rui_index` and paste it into the new window.      
+Copy `https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless.com_rui_index.json` and paste it into the new window.      
 - If there is already an URL from another manufacturer in that field, paste the above URL into a new line.    
 
 ![Paste](./assets/03-add-bsp-url.png)  
