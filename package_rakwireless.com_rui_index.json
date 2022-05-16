@@ -206,10 +206,10 @@
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:099d37ad29e54d5f47737007c8a5bf8c",
-              "size": "9459660",
-              "archiveFileName": "nrfjprog-10.12.2-linux32.tar.bz2",
-              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.12.2-linux32.tar.bz2"
+              "checksum": "MD5:966b9510a265981c0139f9756daaa307",
+              "size": "29545814",
+              "archiveFileName": "nrfjprog-10.15.4-linux64.tar.bz2",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.15.4-linux64.tar.bz2"
             },
             {
               "host": "i686-mingw32",
