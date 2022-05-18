@@ -13,12 +13,12 @@
         {
           "name": "RAKwireless RUI STM32 Boards",
           "architecture": "stm32",
-          "version": "3.4.1",
+          "version": "3.4.2",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.4.1.tar.gz",
-          "archiveFileName": "RAK-STM32-RUI-3.4.1.tar.gz",
-          "checksum": "SHA-256:f009d921b80c110f99c5313922c217c12660835692a41f92218b19d46cecef27",
-          "size": "55316737",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.4.2.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-3.4.2.tar.gz",
+          "checksum": "SHA-256:04b561a01d2a46516c19351587aa654c2fecfb2e46f9ae98a9240acbdb4327a8",
+          "size": "55314787",
           "boards": [
             {
               "name": "RAK3172-E"
@@ -48,12 +48,12 @@
         {
           "name": "RAKwireless RUI nRF Boards",
           "architecture": "nrf52",
-          "version": "3.4.1",
+          "version": "3.4.2",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.4.1.tar.gz",
-          "archiveFileName": "RAK-nRF52-RUI-3.4.1.tar.gz",
-          "checksum": "SHA-256:dd2db419590d746dad95a49e5d5d82fb62af741fca47e6d805b7a9c136b1ba8a",
-          "size": "78424661",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.4.2.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-3.4.2.tar.gz",
+          "checksum": "SHA-256:16d22d59412c450d6fa627c700e56c0c6ffb33367286ff0a1547ae97b25e99e9",
+          "size": "78443900",
           "boards": [
             {
               "name": "RAK4631"
@@ -283,10 +283,10 @@
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:099d37ad29e54d5f47737007c8a5bf8c",
-              "size": "9459660",
-              "archiveFileName": "nrfjprog-10.12.2-linux32.tar.bz2",
-              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.12.2-linux32.tar.bz2"
+              "checksum": "MD5:966b9510a265981c0139f9756daaa307",
+              "size": "29545814",
+              "archiveFileName": "nrfjprog-10.15.4-linux64.tar.bz2",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.15.4-linux64.tar.bz2"
             },
             {
               "host": "i686-mingw32",
