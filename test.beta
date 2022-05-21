@@ -52,8 +52,8 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.4.2.tar.gz",
           "archiveFileName": "RAK-nRF52-RUI-3.4.2.tar.gz",
-          "checksum": "SHA-256:9a2d15f7af33ec3db513ee7edf14cdd87c36efdf48011276bec3a8b5147156c6",
-          "size": "78415501",
+          "checksum": "SHA-256:1d35a8fd40bf9d7a9533643b66dbf900a12ea38bbff9bd194253a9948858d6c6",
+          "size": "78414944",
           "boards": [
             {
               "name": "RAK4631"
