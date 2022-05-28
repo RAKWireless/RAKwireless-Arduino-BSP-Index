@@ -461,7 +461,7 @@
             {
               "host": "i686-mingw32",
               "checksum": "MD5:e3b6f4f5a0487583feda208985053c2d",
-              "size": "6558844",
+              "size": "6558888",
               "archiveFileName": "buildtime-win32.tar.gz",
               "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/buildtime-win32.tar.gz"
             }
