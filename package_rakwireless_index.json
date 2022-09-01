@@ -285,6 +285,56 @@
 				{
 					"name": "RAKwireless ESP32 Boards",
 					"architecture": "esp32",
+					"version": "2.0.1",
+					"category": "ESP32",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/2.0.1.zip",
+					"archiveFileName": "RAK-ESP32-Arduino-2.0.1.zip",
+					"checksum": "SHA-256:676dfdeb03dc36646fdb55a6e60429cbc3883597ae1f98bee47f9a8db9eb7d52",
+					"size": "146246598",
+					"help": {
+						"online": ""
+					},
+					"boards": [
+						{
+							"name": "RAK11200"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "riscv32-esp-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32s2-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "esptool_py",
+							"version": "3.1.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mkspiffs",
+							"version": "0.2.3"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mklittlefs",
+							"version": "3.0.0-gnu12-dc7f933"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless ESP32 Boards",
+					"architecture": "esp32",
 					"version": "2.0.0",
 					"category": "ESP32",
 					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/2.0.0.zip",
