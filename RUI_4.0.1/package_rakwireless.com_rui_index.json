@@ -1,0 +1,507 @@
+{
+  "packages": [
+    {
+      "name": "rak_rui",
+      "maintainer": "RAKwireless",
+      "websiteURL": "https://RAKwireless.com",
+      "email": "inquiry@RAKwireless.com",
+      "description": "RUI3 Board Support Package for RAKwireless WisBlock Core modules. Get more information from http://rakwireless.com",
+      "help": {
+        "online": "https://forum.rakwireless.com"
+      },
+      "platforms": [
+        {
+          "name": "RAKwireless RUI Apollo3 Boards",
+          "architecture": "apollo3",
+          "version": "4.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v4.0.1.tar.gz",
+          "archiveFileName": "RAK-APOLLO3-RUI-4.0.1.tar.gz",
+          "checksum": "SHA-256:eb57511609024649a84b014aa9709bef3da50209adcf942a1d335241e66407aa",
+          "size": "80357717",
+          "boards": [
+            {
+              "name": "RAK11720"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader_ymodem",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI STM32 Boards",
+          "architecture": "stm32",
+          "version": "4.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v4.0.1.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-4.0.1.tar.gz",
+          "checksum": "SHA-256:e9ca054e2431b803e9b42177e7011b5e5ddbd4ef885bf3b53f688724d694a37a",
+          "size": "55395706",
+          "boards": [
+            {
+              "name": "RAK3172-E"
+            },
+            {
+              "name": "RAK3272-SiP"
+            },
+            {
+              "name": "RAK3272LP-SiP"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader_ymodem",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI STM32 Boards",
+          "architecture": "stm32",
+          "version": "3.4.2",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v3.4.2.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-3.4.2.tar.gz",
+          "checksum": "SHA-256:29be0aa3e3bef2725ad5e180b992f95d53ab692e6af92aace1331b4800858b0d",
+          "size": "54994941",
+          "boards": [
+            {
+              "name": "RAK3172-E"
+            },
+            {
+              "name": "RAK3272-SiP"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader_ymodem",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI nRF Boards",
+          "architecture": "nrf52",
+          "version": "4.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v4.0.1.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-4.0.1.tar.gz",
+          "checksum": "SHA-256:ac31d529f6c0c3a68a3e3847013c0d7d3d7144f6b57826b0bb38bdac8d8ce74b",
+          "size": "79372826",
+          "boards": [
+            {
+              "name": "RAK4631"
+            },
+            {
+              "name": "RAK3401"
+            },
+            {
+              "name": "RAK5010"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "nrfjprog",
+              "version": "10.15.4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader",
+              "version": "0.0.0"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "pc-nrfutil",
+              "version": "v6.1.3"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI nRF Boards",
+          "architecture": "nrf52",
+          "version": "3.4.2",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.4.2.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-3.4.2.tar.gz",
+          "checksum": "SHA-256:f92330a1dfea9fac278e0dcd13634d4a5c0d999b0224b31d03f5e14ff97db825",
+          "size": "78418145",
+          "boards": [
+            {
+              "name": "RAK4631"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "nrfjprog",
+              "version": "10.15.4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader",
+              "version": "0.0.0"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "pc-nrfutil",
+              "version": "v6.1.3"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI nRF Boards",
+          "architecture": "nrf52",
+          "version": "3.2.0",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v3.2.4.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-3.2.4.tar.gz",
+          "checksum": "SHA-256:d649baea7a90b0fa97af39c3b31cb8b852b2c7a946cdde4181af429b7ff96064",
+          "size": "78289689",
+          "boards": [
+            {
+              "name": "RAK4631"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "nrfjprog",
+              "version": "10.15.4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader",
+              "version": "0.0.0"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "pc-nrfutil",
+              "version": "v6.1.3"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "9-2019q4",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "checksum": "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+              "size": "96613739"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+              "checksum": "MD5:0dfa059aae18fcf7d842e30c525076a4",
+              "size": "128670769"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/gcc-arm-none-eabi-9-2019-q4-major-win32.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-win32.tar.bz2",
+              "checksum": "MD5:4a413e0ac8c36daf7c1faa489215e081",
+              "size": "126778751"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+              "checksum": "MD5:241b64f0578db2cf146034fc5bcee3d4",
+              "size": "116770520"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+              "checksum": "MD5:fe0029de4f4ec43cf7008944e34ff8cc",
+              "size": "116802378"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "checksum": "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+              "size": "97427309"
+            }
+          ]
+        },
+        {
+          "name": "nrfjprog",
+          "version": "10.15.4",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:c6675388d6e6ed8fc349c78f16d2d9b9",
+              "size": "13345326",
+              "archiveFileName": "nrfjprog-10.15.4-mac.tar.bz2",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.15.4-mac.tar.bz2"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:099d37ad29e54d5f47737007c8a5bf8c",
+              "size": "9459660",
+              "archiveFileName": "nrfjprog-10.12.2-linux32.tar.bz2",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.12.2-linux32.tar.bz2"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:966b9510a265981c0139f9756daaa307",
+              "size": "29545814",
+              "archiveFileName": "nrfjprog-10.15.4-linux64.tar.bz2",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.15.4-linux64.tar.bz2"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:3c8f700d474b89b306e8951f3f7c1102",
+              "size": "4777014",
+              "archiveFileName": "nrfjprog-10.15.4-win32.tar.bz2",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/nrfjprog-10.15.4-win32.tar.bz2"
+            }
+          ]
+        },
+        {
+          "name": "uploader",
+          "version": "0.0.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:b983c2b9375258f4f2680e5eb307e1a0",
+              "size": "709",
+              "archiveFileName": "uploader-macos.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader-macos.tar.gz"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:7a7b2aa706096ef641a04c80e73b3779",
+              "size": "707",
+              "archiveFileName": "uploader-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader-linux.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:7a7b2aa706096ef641a04c80e73b3779",
+              "size": "707",
+              "archiveFileName": "uploader-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader-linux.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:3fbe26695b08fd25002d5a681116013a",
+              "size": "6778945",
+              "archiveFileName": "uploader-win32.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader-win32.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "uploader_3372",
+          "version": "0.0.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:65afa3f10fba68f4300e01e9e3844871",
+              "size": "6780",
+              "archiveFileName": "uploader_3372-macos.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_3372-macos.tar.gz"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:3493ead210e61ba781ccecc2509aa1ed",
+              "size": "6782",
+              "archiveFileName": "uploader_3372-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_3372-linux.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:3493ead210e61ba781ccecc2509aa1ed",
+              "size": "6782",
+              "archiveFileName": "uploader_3372-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_3372-linux.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:a8db16007559ad13c78d11ac57ac417f",
+              "size": "6603366",
+              "archiveFileName": "uploader_3372-win32.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_3372-win32.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "uploader_ymodem",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:d9ef354c91761588ffcabd9583203408",
+              "size": "7167",
+              "archiveFileName": "uploader_ymodem_macos_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_macos_v1.0.0.tar.gz"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:e1bf37a89ced75d8c71d65648695fc95",
+              "size": "7166",
+              "archiveFileName": "uploader_ymodem_linux_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_linux_v1.0.0.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:e1bf37a89ced75d8c71d65648695fc95",
+              "size": "7166",
+              "archiveFileName": "uploader_ymodem_linux_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_linux_v1.0.0.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:d45e2b437401e7cc39dd8f68c927e19f",
+              "size": "6600625",
+              "archiveFileName": "uploader_ymodem_win32_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_win32_v1.0.0.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "pc-nrfutil",
+          "version": "v6.1.3",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:26b34b3791d1ff7897817c9b4bacc4af",
+              "size": "15670368",
+              "archiveFileName": "pc-nrfutil-macos.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/pc-nrfutil-macos.tar.gz"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:37159be97e38b20d21f222d454e636ae",
+              "size": "26082790",
+              "archiveFileName": "pc-nrfutil-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/pc-nrfutil-linux.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:37159be97e38b20d21f222d454e636ae",
+              "size": "26082790",
+              "archiveFileName": "pc-nrfutil-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/pc-nrfutil-linux.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:44dfdae941ec454898304e41ecf9990b",
+              "size": "13711499",
+              "archiveFileName": "pc-nrfutil-win32.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/pc-nrfutil-win32.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "buildtime",
+          "version": "v0.0.0",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:0cb2c01c12c641c460c7c49b4df61299",
+              "size": "445",
+              "archiveFileName": "buildtime-macos.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/buildtime-macos.tar.gz"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:c6e85a264273d985269ca95127928f22",
+              "size": "446",
+              "archiveFileName": "buildtime-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/buildtime-linux.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:c6e85a264273d985269ca95127928f22",
+              "size": "446",
+              "archiveFileName": "buildtime-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/buildtime-linux.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:e3b6f4f5a0487583feda208985053c2d",
+              "size": "6558888",
+              "archiveFileName": "buildtime-win32.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/buildtime-win32.tar.gz"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
