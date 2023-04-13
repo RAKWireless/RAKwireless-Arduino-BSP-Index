@@ -17,8 +17,8 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v4.0.2.tar.gz",
           "archiveFileName": "RAK-APOLLO3-RUI-4.0.2.tar.gz",
-          "checksum": "SHA-256:ae8a76a62ac8958cd5f16464ed6dcae75b406f7d5aadc0640d3641834f610d16",
-          "size": "80353287",
+          "checksum": "SHA-256:529c958e881141bb9ef2389b05c5467171266d8266daf72c4a4d5b550385b07d",
+          "size": "80356718",
           "boards": [
             {
               "name": "RAK11720"
@@ -81,20 +81,20 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v4.0.2.tar.gz",
           "archiveFileName": "RAK-STM32-RUI-4.0.2.tar.gz",
-          "checksum": "SHA-256:52bdf23a1045da03ab89ca3f19bb3450b24d796b33b6a63aa7a9fba91b414a95",
-          "size": "55400062",
+          "checksum": "SHA-256:9f38eeb358b686f255409ea44458c45825078f5404fffe020b9ca7e4c2f70320",
+          "size": "55563512",
           "boards": [
             {
               "name": "RAK3172-E"
+            },
+            {
+              "name": "RAK3172-T"
             },
             {
               "name": "RAK3272-SiP"
             },
             {
               "name": "RAK3272LP-SiP"
-            },
-            {
-              "name": "RAK3172-T"
             }
           ],
           "toolsDependencies": [
@@ -233,8 +233,8 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v4.0.2.tar.gz",
           "archiveFileName": "RAK-nRF52-RUI-4.0.2.tar.gz",
-          "checksum": "SHA-256:ce35dbea3c3baf5a22b5039bfc3abcf526800296b6c0e46e6e94ec470eba205d",
-          "size": "79376394",
+          "checksum": "SHA-256:a1bd61845935fb342b9c8b5698cde5f1b3f2f1e62323416e34e0f29ac6f554fa",
+          "size": "79380701",
           "boards": [
             {
               "name": "RAK4631"

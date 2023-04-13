@@ -1,4 +1,4 @@
-## [Unreleased] - 2023-03-29
+## [Unreleased] - 2023-04-13
 
 ### Added
 
@@ -6,7 +6,7 @@
 
 ### Fixed
 
-## [4.0.2] - 2023-03-29
+## [4.0.2] - 2023-04-13
 
 CLIVER: 1.5.10  
 APIVER: 3.2.6  
@@ -20,10 +20,15 @@ APIVER: 3.2.6
 - RUI-935: [AT_CMD] AT+P2P add new parameter for runtime setting  
 
 ### Fixed
-- RUI-838: [AT+LPSEND] "AT+SLEEP=0" documentation error.
-- RUI-839: [AT+LPSEND] "AT+LPSEND=0:0:11" will return "OK".
-- RUI-843: [AT+BAND] RX2 DR=7 shall not be set in AU915.
-- RUI-847: [AT+P2P]DUT would change parameter while input invalid parameter via AT+P2P.
+- RUI-131: [RUI API] api.lorawan.join() cannot customize parameters  
+- RUI-838: [AT+LPSEND] "AT+SLEEP=0" documentation error.  
+- RUI-839: [AT+LPSEND] "AT+LPSEND=0:0:11" will return "OK".  
+- RUI-843: [AT+BAND] RX2 DR=7 shall not be set in AU915.  
+- RUI-847: [AT+P2P]DUT would change parameter while input invalid parameter via AT+P2P.  
+- RUI-885: Missing `Serial.begin(xxxx);` in quite a few examples  
+- RUI-941: With RUI3 V4.0.1 the LoRaWAN_ABP example sketch fails to work  
+- RUI-944: RUI3 firmware boot-up message standardization  
+- RUI-945: Add +EVT:Transmission done message on AT+PSEND of LoRa P2P and AT+SEND of LoRaWAN.  
 
 ## [4.0.1] - 2023-03-14
 
