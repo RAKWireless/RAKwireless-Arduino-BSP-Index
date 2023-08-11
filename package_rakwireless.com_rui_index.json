@@ -17,7 +17,7 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v4.0.6_251.tar.gz",
           "archiveFileName": "RAK-APOLLO3-RUI-4.0.6_251.tar.gz",
-          "checksum": "SHA-256:2650ceb377c30d5f10527d3bb90c9138",
+          "checksum": "SHA-256:bc1f8aa06685ec059e59c88e6826ec5296426ad4908c5687c5fb489d3714cffb",
           "size": "80365153",
           "boards": [
             {
@@ -209,7 +209,7 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v4.0.6_251.tar.gz",
           "archiveFileName": "RAK-STM32-RUI-4.0.6_251.tar.gz",
-          "checksum": "SHA-256:e8217d49cf3703342002b2a2c520b73d",
+          "checksum": "SHA-256:1ae87bc2cbfd706d58e8c2e8766541e81029888b8ac324ea9a84102854dfe306",
           "size": "55476354",
           "boards": [
             {
@@ -668,7 +668,7 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v4.0.6_251.tar.gz",
           "archiveFileName": "RAK-nRF52-RUI-4.0.6_251.tar.gz",
-          "checksum": "SHA-256:433c1311200a4f6701875d26fa22f25e",
+          "checksum": "SHA-256:dc0343896fda22d4abbf843b8f515746e21641dcdfb4eb19ae6059ccdb67cb11",
           "size": "79323664",
           "boards": [
             {
