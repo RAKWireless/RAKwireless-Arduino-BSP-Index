@@ -111,10 +111,10 @@
           "architecture": "apollo3",
           "version": "4.0.2",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v4.0.2_232.tar.gz",
-          "archiveFileName": "RAK-APOLLO3-RUI-4.0.2_232.tar.gz",
-          "checksum": "SHA-256:7c7249b0b3d954eaf789bc5c980e7b4a7bc5e2faf38d274ce549a235981394e8",
-          "size": "80358693",
+          "url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v4.0.2_252.tar.gz",
+          "archiveFileName": "RAK-APOLLO3-RUI-4.0.2_252.tar.gz",
+          "checksum": "SHA-256:f1cd484bc46a8e072f57f110bde61c89e3aef0548f5245a9ca9e870e23c1eeca",
+          "size": "80359593",
           "boards": [
             {
               "name": "RAK11720"
@@ -327,10 +327,10 @@
           "architecture": "stm32",
           "version": "4.0.2",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v4.0.2_232.tar.gz",
-          "archiveFileName": "RAK-STM32-RUI-4.0.2_232.tar.gz",
-          "checksum": "SHA-256:931159c677baa636d3fb57bb5a4ab051ea46c7d1e51730c0efa91e8354159450",
-          "size": "55402775",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v4.0.2_252.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-4.0.2_252.tar.gz",
+          "checksum": "SHA-256:7086cf3ed0fb8f46cedad8faab5edf99af64282a4bf6dcbc33683acdef776a67",
+          "size": "55398101",
           "boards": [
             {
               "name": "RAK3172-E"
@@ -810,10 +810,10 @@
           "architecture": "nrf52",
           "version": "4.0.2",
           "category": "Contributed",
-          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v4.0.2_232.tar.gz",
-          "archiveFileName": "RAK-nRF52-RUI-4.0.2_232.tar.gz",
-          "checksum": "SHA-256:5c1a158b7f5cefb1eacf6ed20fb8a03c44afcfdf1ceb59db1e00793f723e9166",
-          "size": "79378804",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v4.0.2_252.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-4.0.2_252.tar.gz",
+          "checksum": "SHA-256:cc110e5a9ded2b53e56caa3a336f9e8a1a367dc21c6f6982a13c2cc776b196da",
+          "size": "79383275",
           "boards": [
             {
               "name": "RAK4631"
