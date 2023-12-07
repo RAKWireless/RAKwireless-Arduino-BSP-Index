@@ -33,7 +33,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -65,7 +65,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -97,7 +97,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -129,7 +129,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -161,7 +161,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -193,7 +193,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -225,7 +225,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -266,7 +266,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -307,7 +307,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -348,7 +348,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -386,7 +386,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -424,7 +424,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -462,7 +462,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -500,7 +500,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -538,7 +538,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -576,7 +576,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -614,7 +614,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -652,7 +652,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -690,7 +690,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -725,7 +725,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -768,7 +768,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -816,7 +816,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -864,7 +864,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -912,7 +912,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -960,7 +960,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1008,7 +1008,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1056,7 +1056,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1104,7 +1104,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1152,7 +1152,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1200,7 +1200,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1248,7 +1248,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1290,7 +1290,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1332,7 +1332,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1374,7 +1374,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
@@ -1474,6 +1474,40 @@
         },
         {
           "name": "uploader",
+          "version": "0.0.1",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:b983c2b9375258f4f2680e5eb307e1a0",
+              "size": "709",
+              "archiveFileName": "uploader-macos.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader-macos.tar.gz"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:7a7b2aa706096ef641a04c80e73b3779",
+              "size": "707",
+              "archiveFileName": "uploader-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader-linux.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:7a7b2aa706096ef641a04c80e73b3779",
+              "size": "707",
+              "archiveFileName": "uploader-linux.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader-linux.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:87b1960d91d22d4ec93bf4660242f041",
+              "size": "6595859",
+              "archiveFileName": "uploader-win32_0.0.1.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader-win32_0.0.1.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "uploader",
           "version": "0.0.0",
           "systems": [
             {
@@ -1537,6 +1571,40 @@
               "size": "6603366",
               "archiveFileName": "uploader_3372-win32.tar.gz",
               "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_3372-win32.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "uploader_ymodem",
+          "version": "1.0.1",
+          "systems": [
+            {
+              "host": "i386-apple-darwin11",
+              "checksum": "MD5:d9ef354c91761588ffcabd9583203408",
+              "size": "7167",
+              "archiveFileName": "uploader_ymodem_macos_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_macos_v1.0.0.tar.gz"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "checksum": "MD5:e1bf37a89ced75d8c71d65648695fc95",
+              "size": "7166",
+              "archiveFileName": "uploader_ymodem_linux_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_linux_v1.0.0.tar.gz"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "checksum": "MD5:e1bf37a89ced75d8c71d65648695fc95",
+              "size": "7166",
+              "archiveFileName": "uploader_ymodem_linux_v1.0.0.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_linux_v1.0.0.tar.gz"
+            },
+            {
+              "host": "i686-mingw32",
+              "checksum": "MD5:127e4cf92ab61814c4cf4f55c7f5b6ff",
+              "size": "6602518",
+              "archiveFileName": "uploader_ymodem_win32_v1.0.1.tar.gz",
+              "url": "https://downloads.rakwireless.com/RUI/RUI3/Tools/uploader_ymodem_win32_v1.0.1.tar.gz"
             }
           ]
         },
