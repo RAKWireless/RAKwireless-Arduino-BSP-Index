@@ -13,6 +13,154 @@
 				{
 					"name": "RAKwireless nRF Boards",
 					"architecture": "nrf52",
+					"version": "1.3.3",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/1.3.3.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-1.3.3.tar.gz",
+					"checksum": "SHA-256:ff5f0351fe6729b807a8eab3dd176bb3affb3216ac8957183628b2abab57f700",
+					"size": "20446837",
+					"help": {
+						"online": "https://forum.rakwireless.com"
+					},
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "CMSIS",
+							"version": "5.7.0"
+						}
+					]
+				},{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
+					"version": "1.3.2",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/1.3.2.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-1.3.2.tar.gz",
+					"checksum": "SHA-256:cfda23bb4bea64ebbf1d7db910dba8fa8b750ec187ce35c5d5cf8f4eddc218c6",
+					"size": "20446272",
+					"help": {
+						"online": "https://forum.rakwireless.com"
+					},
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "CMSIS",
+							"version": "5.7.0"
+						}
+					]
+				},{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
+					"version": "1.3.1",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/1.3.1.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-1.3.1.tar.gz",
+					"checksum": "SHA-256:45d8d87455a104ea2f61c90094748a46c48ab915c59bda2de072362fab61aef1",
+					"size": "20444867",
+					"help": {
+						"online": "https://forum.rakwireless.com"
+					},
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "CMSIS",
+							"version": "5.7.0"
+						}
+					]
+				},{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
+					"version": "1.3.0",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/1.3.0.tar.gz?raw=true",
+					"archiveFileName": "RAK-nRF52-Arduino-1.3.0.tar.gz",
+					"checksum": "SHA-256:1801d106709977fadd36d2438a3bdf43669bce8a87e8c21221e87ecdbae20a02",
+					"size": "20446525",
+					"help": {
+						"online": "https://forum.rakwireless.com"
+					},
+					"boards": [
+						{
+							"name": "RAK4631"
+						},
+						{
+							"name": "RAK4601"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "9-2019q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "nrfjprog",
+							"version": "9.4.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "CMSIS",
+							"version": "5.7.0"
+						}
+					]
+				},{
+					"name": "RAKwireless nRF Boards",
+					"architecture": "nrf52",
 					"version": "1.0.1",
 					"category": "Contributed",
 					"url": "https://github.com/RAKWireless/RAK-nRF52-Arduino/archive/1.0.1.tar.gz?raw=true",
@@ -205,6 +353,156 @@
 							"packager": "rakwireless",
 							"name": "nrfjprog",
 							"version": "9.4.0"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless ESP32 Boards",
+					"architecture": "esp32",
+					"version": "2.0.3",
+					"category": "ESP32",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/2.0.3.zip",
+					"archiveFileName": "RAK-ESP32-Arduino-2.0.3.zip",
+					"checksum": "SHA-256:3e7c93138c4e96d9a94e0f467fecd6dce6d951422e14ca947592e631535560ff",
+					"size": "146246598",
+					"help": {
+						"online": ""
+					},
+					"boards": [
+						{
+							"name": "RAK11200"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "riscv32-esp-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32s2-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "esptool_py",
+							"version": "3.1.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mkspiffs",
+							"version": "0.2.3"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mklittlefs",
+							"version": "3.0.0-gnu12-dc7f933"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless ESP32 Boards",
+					"architecture": "esp32",
+					"version": "2.0.2",
+					"category": "ESP32",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/2.0.2.zip",
+					"archiveFileName": "RAK-ESP32-Arduino-2.0.2.zip",
+					"checksum": "SHA-256:dc492fff18555c67cc3faba286162328d222b0a18247291c27087b70f98f3a50",
+					"size": "142525756",
+					"help": {
+						"online": ""
+					},
+					"boards": [
+						{
+							"name": "RAK11200"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "riscv32-esp-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32s2-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "esptool_py",
+							"version": "3.1.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mkspiffs",
+							"version": "0.2.3"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mklittlefs",
+							"version": "3.0.0-gnu12-dc7f933"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless ESP32 Boards",
+					"architecture": "esp32",
+					"version": "2.0.1",
+					"category": "ESP32",
+					"url": "https://github.com/RAKWireless/RAK-ESP32-Arduino/archive/refs/tags/v2.0.1.zip",
+					"archiveFileName": "RAK-ESP32-Arduino-2.0.1.zip",
+					"checksum": "SHA-256:676dfdeb03dc36646fdb55a6e60429cbc3883597ae1f98bee47f9a8db9eb7d52",
+					"size": "146246598",
+					"help": {
+						"online": ""
+					},
+					"boards": [
+						{
+							"name": "RAK11200"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "riscv32-esp-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "xtensa-esp32s2-elf-gcc",
+							"version": "gcc8_4_0-esp-2021r1"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "esptool_py",
+							"version": "3.1.0"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mkspiffs",
+							"version": "0.2.3"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "mklittlefs",
+							"version": "3.0.0-gnu12-dc7f933"
 						}
 					]
 				},
@@ -553,6 +851,51 @@
 					"archiveFileName": "RAK-RP-Arduino-0.0.6.tar.gz",
 					"checksum": "SHA-256:EB6A691F5A02E46043399D27ED5707BC21B35B73045514F458AF581A75AACC1B",
 					"size": "13017999",
+					"help": {
+						"online": "https://forum.rakwireless.com/c/wisblock/67"
+					},
+					"boards": [
+						{
+							"name": "RAK11300"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "rakwireless",
+							"name": "openocd",
+							"version": "0.11.0-arduino2"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "arm-none-eabi-gcc",
+							"version": "7-2017q4"
+						},
+						{
+							"packager": "rakwireless",
+							"name": "bossac",
+							"version": "1.9.1-arduino2"
+						},
+						{
+							"packager": "rakwireless",
+							"version": "0.10.0-arduino1",
+							"name": "dfu-util"
+						},
+						{
+							"packager": "rakwireless",
+							"version": "1.0.2",
+							"name": "rp2040tools"
+						}
+					]
+				},
+				{
+					"name": "RAKwireless RP Boards",
+					"architecture": "mbed_rp2040",
+					"version": "0.0.7",
+					"category": "Contributed",
+					"url": "https://github.com/RAKWireless/RAK-RP-Arduino/archive/0.0.7.tar.gz?raw=true",
+					"archiveFileName": "RAK-RP-Arduino-0.0.7.tar.gz",
+					"checksum": "SHA-256:cb766b51bb75d84d4bed65eb8d94a3789f79e5fb0853cb7260abaf5aa5018a49",
+					"size": "16588869",
 					"help": {
 						"online": "https://forum.rakwireless.com/c/wisblock/67"
 					},
