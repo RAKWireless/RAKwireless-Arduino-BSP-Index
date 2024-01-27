@@ -8,7 +8,7 @@ _**This repo contains the custom installation packages required by the Arduino I
 
 There are two installation packages available:
 - `package_rakwireless_index.json` is for WisBlock Core module support in Arduino IDE v1.6.4 or newer.
-- `package_rakwireless.com_rui_index.json` is for RUI3 support in Arduino IDE v1.6.4 or newer.
+- `package_rakwireless_com_rui_index.json` is for RUI3 support in Arduino IDE v1.6.4 or newer.
 
 ----
 
@@ -68,7 +68,7 @@ Copy `https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Inde
 - If there is already an URL from another manufacturer in that field, paste the above URL into a new line.    
 
 ### If installing RUI3 BSP's
-Copy `https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless.com_rui_index.json` and paste it into the new window.      
+Copy `https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_com_rui_index.json` and paste it into the new window.      
 - If there is already an URL from another manufacturer in that field, paste the above URL into a new line.    
 
 ![Paste](./assets/03-add-bsp-url.png)  
