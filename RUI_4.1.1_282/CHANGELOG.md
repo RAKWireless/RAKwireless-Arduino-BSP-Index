@@ -15,7 +15,6 @@ APIVER: 3.2.9
 - RUI-958: Implement the default setting by 2 different user scenarios and APIs for watchdog feature in RAK3172 and RAK11720.  
   Add api.system.wdt.enable(wdt_reset_timer)  
   Add api.system.wdt.reset()  
-  Add api.system.wdt.disable()  
 - RUI-1019: AT+TIMEREQ and AT+LTIME do not have API calls to request and retrieve time from LoRaWAN server  
   Add api.lorawan.timereq.get()  
   Add api.lorawan.timereq.set(value)  
