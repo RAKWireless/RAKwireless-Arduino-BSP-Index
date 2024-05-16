@@ -33,7 +33,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -298,7 +298,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader_ymodem",
-              "version": "1.0.0"
+              "version": "1.0.1"
             },
             {
               "packager": "rak_rui",
@@ -841,7 +841,7 @@
             {
               "packager": "rak_rui",
               "name": "uploader",
-              "version": "0.0.0"
+              "version": "0.0.1"
             },
             {
               "packager": "rak_rui",
