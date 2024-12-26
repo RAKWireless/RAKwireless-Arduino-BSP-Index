@@ -278,15 +278,6 @@
           "boards": [
             {
               "name": "RAK3172-E"
-            },
-            {
-              "name": "RAK3172-T"
-            },
-            {
-              "name": "RAK3272-SiP"
-            },
-            {
-              "name": "RAK3272LP-SiP"
             }
           ],
           "toolsDependencies": [
