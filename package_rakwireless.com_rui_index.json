@@ -13,6 +13,38 @@
         {
           "name": "RAKwireless RUI Apollo3 Boards",
           "architecture": "apollo3",
+          "version": "4.2.1",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v4.2.1_348.tar.gz",
+          "archiveFileName": "RAK-APOLLO3-RUI-4.2.1_348.tar.gz",
+          "checksum": "SHA-256:ec3ee0c6adcbe2cf764e506fe4fbd7d51187bc2da186e35816e22be1ae987102",
+          "size": "71832709",
+          "boards": [
+            {
+              "name": "RAK11720"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader_ymodem",
+              "version": "1.0.1"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI Apollo3 Boards",
+          "architecture": "apollo3",
           "version": "4.1.1",
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-APOLLO3-RUI/archive/refs/tags/v4.1.1_282.tar.gz",
@@ -246,6 +278,50 @@
           "boards": [
             {
               "name": "RAK11720"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader_ymodem",
+              "version": "1.0.1"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI STM32 Boards",
+          "architecture": "stm32",
+          "version": "4.2.1",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v4.2.1_348.tar.gz",
+          "archiveFileName": "RAK-STM32-RUI-4.2.1_348.tar.gz",
+          "checksum": "SHA-256:8deaeec1aca8f2658630b70b0024fe7f9258327afc40a641beae26b43cba52d4",
+          "size": "53092629",
+          "boards": [
+            {
+              "name": "RAK3172-E"
+            },
+            {
+              "name": "RAK3172-T"
+            },
+            {
+              "name": "RAK3272-SiP"
+            },
+            {
+              "name": "RAK3272LP-SiP"
+            },
+            {
+              "name": "RAK11160"
             }
           ],
           "toolsDependencies": [
@@ -840,6 +916,54 @@
               "packager": "rak_rui",
               "name": "uploader_ymodem",
               "version": "1.0.1"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "buildtime",
+              "version": "v0.0.0"
+            }
+          ]
+        },
+        {
+          "name": "RAKwireless RUI nRF Boards",
+          "architecture": "nrf52",
+          "version": "4.2.1",
+          "category": "Contributed",
+          "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/v4.2.1_348.tar.gz",
+          "archiveFileName": "RAK-nRF52-RUI-4.2.1_348.tar.gz",
+          "checksum": "SHA-256:0f3e873ccd3e5a34db95f1723ef70d924d2fdae7cbbb94cb5eb88c81c8ddd6ee",
+          "size": "62858517",
+          "boards": [
+            {
+              "name": "RAK4631"
+            },
+            {
+              "name": "RAK3401"
+            },
+            {
+              "name": "RAK5010"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rak_rui",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "nrfjprog",
+              "version": "10.15.4"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "uploader",
+              "version": "0.0.1"
+            },
+            {
+              "packager": "rak_rui",
+              "name": "pc-nrfutil",
+              "version": "v6.1.7"
             },
             {
               "packager": "rak_rui",
