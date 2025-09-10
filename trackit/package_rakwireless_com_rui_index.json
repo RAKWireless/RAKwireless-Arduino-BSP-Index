@@ -17,8 +17,8 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-nRF52-RUI/archive/refs/tags/trackit.tar.gz",
           "archiveFileName": "RAK-nRF52-RUI-trackit.tar.gz",
-          "checksum": "SHA-256:e2be6797aae1663fdb19bb9da4ccd0b696cae78632db2bd7ebe895bb6bab87f9",
-          "size": "62856211",
+          "checksum": "SHA-256:08410a130fe62a62fba7423831d8052ef368d11e14498eba36efde7ad0cacd2a",
+          "size": "62849606",
           "boards": [
             {
               "name": "RAK4631"
