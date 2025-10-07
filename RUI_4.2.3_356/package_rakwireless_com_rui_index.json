@@ -337,8 +337,8 @@
           "category": "Contributed",
           "url": "https://github.com/RAKWireless/RAK-STM32-RUI/archive/refs/tags/v4.2.3_356.tar.gz",
           "archiveFileName": "RAK-STM32-RUI-4.2.3_356.tar.gz",
-          "checksum": "SHA-256:3a9dfe2aad551bd8a8ea2985032d78576da797ce4c4a233c205c7ce301252650",
-          "size": "53095742",
+          "checksum": "SHA-256:3284e0b9028948930eba0ee2f2cb051850ce5981e9c2979d5dff4fb95a208f8c",
+          "size": "53096381",
           "boards": [
             {
               "name": "RAK3172-E"
