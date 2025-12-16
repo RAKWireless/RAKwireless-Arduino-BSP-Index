@@ -1,111 +1,87 @@
-# RAKwireless BSP Support For The Arduino Board Manager
-| ![RAKwireless](./assets/RAK-Whirls.png) | ![RAKstar](./assets/rakstar.jpg) | ![WisBlock](./assets/WisBlock.png) |
-| :-: | :-: | :-: |
+# RUI3 Staging Release
 
-----
+## Overview
 
-_**This repo contains the custom `package_rakwireless_index.json` files that can be used to add new
-third party boards to the Arduino v1.6.4+ IDE.**_
+This repository provides **RUI3 staging releases** for internal testing, validation, and early access purposes.  
+Staging releases may include new features, experimental changes, or fixes that have **not yet been fully validated** for production deployment.
 
-----
+These releases are intended for:
+- Internal verification
+- Partner evaluation
+- Early functional testing before an official release
 
-## Supported WisBlock Core modules
+---
 
-This repository contains support for the following RAKwireless Arduino BSP's for the following [WisBlock Core modules](https://docs.rakwireless.com/Product-Categories/WisBlock/#wisblock-core).
+## [1] Latest Official Release
 
-- **[RAK4631](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK4631/Overview/#product-description)**    
-- **[RAK11200](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK11200/Overview/#product-description)**
-- **[RAK11310](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK11310/Overview/#product-description)**
+The latest **official (production-ready) RUI3 release** is listed below for reference.
 
-----
+- **Version**: RUI_4.2.2_354  
+- **Release Date**: 2025-08-26  
 
-## Installation instructions for _RAKwireless WisBlock Core_ modules
+> Please note that the official release is the **recommended version for mass production and commercial deployment**.
 
-To add board support for our products, start Arduino and open the Preferences window (**File** > **Preferences**).     
+---
 
-![Preferences](./assets/01-add-bsp-url.png)     
+## [2] Official Release History
 
-----
+Below is the list of officially released RUI3 versions.
 
-In the **Preferences** window, look for **Additional Boards Manager URLs** and click the icon on the right side.
-
-![Additional Boards Manager URLs](./assets/02-add-bsp-url.png)  
-
-----
-----
-
-# IMPORTANT !!!!!  
-If you have already installed the RAKwireless nRF Modules BSP, please follow [these steps first](#uninstall-old-bsp-package). Otherwise you will have the RAK nRF52 boards listed twice!  
-
-#### Continue
----- 
-----
-
-Copy `https://raw.githubusercontent.com/RAKwireless/RAKwireless-Arduino-BSP-Index/main/package_rakwireless_index.json` and paste it into the new window.      
-- If there is already an URL from another manufacturer in that field, paste the above URL into a new line.    
-
-![Paste](./assets/03-add-bsp-url.png)  
-
-Then press the **OK** button.
-
-----
-
-Next open the **Boards Manager** in the menu **Tools**    
-![Preferences](./assets/04-add-bsp.png) 
-
-----
-
-Write "RAK" (without quotes) in the search bar. The RAKwireless WisBlock Core modules will be shown in the window.  
-  
-![Preferences](./assets/05-add-bsp.png) 
-
-You can see which BSP is required for which WisBlock Core module.     
-Select the BSP you need for your WisBlock Core module and click on **Install**.    
-
-_**Depending on your connection speed, the installation can take some time. Please be patient.**_
-
-----
-
-**RAKwireless invests time and resources providing this open source code, please support RAKwireless and open-source hardware by purchasing products from [RAKwireless](https://rakwireless.com)!**
-
-**_For support and questions about RAKwireless products please visit our [forum](https://forum.rakwireless.com/)    
-For examples and quick start tutorial please visit our [Github Repo](https://github.com/RAKWireless/Wisblock)    
-For additional information about RAK products please visit our [Documentation Center](https://docs.rakwireless.com/Product-Categories/WisBlock/)    
-To buy WisBlock modules please visit our [online store](https://store.rakwireless.com/pages/wisblock)_**
+| Version | Release Date |
+|--------|-------------|
+| RUI_4.2.2_354 | 2025-08-26 |
+| RUI_4.2.1_348 | 2025-04-14 |
+| RUI_4.2.0_309 | 2024-08-01 |
+| RUI_4.1.1_282 | 2024-05-13 |
+| RUI_4.1.0_263 | 2023-11-21 |
+| RUI_4.0.6_251 | 2023-08-09 |
 
 
-# Uninstall Old BSP Package
-If you have installed the RAKwireless nRF Modules BSP before, you need to uninstall them first, otherwise you will have the boards listed twice!  
-  
-## Uninstall the RAKwireless nRF Modules BSP
-Open the **Boards Manager** in the menu **Tools**    
-![Preferences](./assets/04-add-bsp.png) 
+> This list only includes **validated and publicly released** versions.
 
-----
+---
 
-Write "RAK" (without quotes) in the search bar. The already installed RAKwireless WisBlock Core modules will be shown in the window.  
-  
-![Preferences](./assets/06-uninstall-old-bsp.png) 
+## Staging Release Information
 
-Select the existing RAK nRF BSP and click on **REMOVE**.    
+### Current Staging Version
 
-----
+- **Staging Version**: RUI_4.2.3_363  
+- **Based on Official Version**: RUI_4.2.1_348  
+- **Build Date**: 2025-12-16  
 
-## Remove BSP URL from preferences
-To remove the old BSP URL open the Preferences window (**File** > **Preferences**).     
+### Included Changes
 
-![Preferences](./assets/01-add-bsp-url.png)     
+#### Added
 
-----
+#### Changed
 
-In the **Preferences** window, look for **Additional Boards Manager URLs** and click the icon on the right side.
+#### Fixed
+- RUI-1148: [RUI3 V4.2.2] First uplink fCnt is 1, LoRaWAN spec says first fCnt should be 0
+- RUI-1149: [RUI3 4.2.2 & 4.2.3] Confirmed packets with RUI3 API are not working as expected
+- RUI-1151: [RUI3 V4.2.2] RAK3172 modules become permanently stuck in AT_BUSY_ERROR
+- RUI-1157: [RUI3 v4.2.3 RAK4630] If LoRaWAN is disabled, the compilation of any code throws error about undefined variable.
 
-![Additional Boards Manager URLs](./assets/02-add-bsp-url.png)  
+---
 
-Look for the old entry     
-**`https://raw.githubusercontent.com/RAKWireless/RAK-nRF52-Arduino/master/package_raknrf_index.json`**    
-and remove the line.  
-  
-![Additional Boards Manager URLs](./assets/07-uninstall-old-bsp.png)  
+## [3] Staging Release Disclaimer
 
-Now you can [continue](#continue) with the new BSP installation.
+⚠️ **IMPORTANT DISCLAIMER**
+
+This is a **staging (pre-release) version** of RUI3.
+
+- This release is **NOT an official production release**
+- Functionality, APIs, and behavior **may change without prior notice**
+- Stability, performance, and regulatory compliance **are not guaranteed**
+- This version **must NOT be used for mass production or commercial deployment**
+- RAKwireless (or the project owner) **assumes no liability** for issues caused by using this staging release
+
+Staging releases are provided **“AS IS”**, solely for evaluation and testing purposes.
+
+---
+
+## License
+
+This project is released under the same license as the official RUI3 release.  
+Please refer to the official repository for full license terms.
+
+
