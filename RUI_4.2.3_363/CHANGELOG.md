@@ -10,12 +10,13 @@
 
 ### Added
 
-### Changed
+### Changed 
 
 ### Fixed
+- RUI-1118: [RUI3 V4.2.0] [RUI3 V4.1.1] [RAK3172] [RAK3172-SiP] CHANGE_ATCMD_PERM does not work.  
 - RUI-1148: [RUI3 V4.2.2] First uplink fCnt is 1, LoRaWAN spec says first fCnt should be 0  
 - RUI-1149: [RUI3 4.2.2 & 4.2.3] Confirmed packets with RUI3 API are not working as expected  
-- RUI-1151: [RUI3 V4.2.2] RAK3172 modules become permanently stuck in AT_BUSY_ERROR  
+- RUI-1150: [RUI3 V4.2.2] RAK3172 modules become permanently stuck in AT_BUSY_ERROR  
 - RUI-1157: [RUI3 v4.2.3 RAK4630] If LoRaWAN is disabled, the compilation of any code throws error about undefined variable.  
 
 ## [4.2.2] - 2025-08-26
