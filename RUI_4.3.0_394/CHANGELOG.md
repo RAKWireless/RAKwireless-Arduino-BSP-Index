@@ -14,10 +14,13 @@
 - AT+TCONF, AT+TTX, AT+TRX, AT+TRSSI, AT+TTH, AT+TRTH suppot testing FSK mode.
 
 ### Fixed
+- RUI-1113: [Field tester]After ADR adjusted TXP, AT+TXP=? Inconsistent with the actual TXP sent 
+- RUI-1169: [RUI3 V4.2.0/V4.2.3]RAK3172-CN cannot be joined and returns AT_ERROR
+- RUI-1179: [RAK3172][v4.2.1] Device not responding after power failure
+- RUI-1180: [RAK4630 RUI3] JOIN fail on EU868
 - fix change uplink timer fail when testing lora certification.
 - fix switch class fail when testing lora certification.
 - optimize I2C driver for stm32 platform.
-- update CN470 for support old rp version
 
 ## [4.2.4] - 2026-03-21
 
